@@ -10,17 +10,37 @@
         <script>try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
-      <header class='main_header content_wrap'>
+      <header class='main_header content_wrap '>
+        <div class='shared_header_container clearfix'>
             <div class='logo_word'>
               <a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}/img/logo.png'></a>
+              <div class='logo_meta_info'>
+                Search our store to find great BC wines.
+              </div>
             </div>
+            <div class='site_wide_nav'>
+                <span class='active'><a href='{{ site.baseurl }}/"'>wines</a></span>
+                <span><a href='http://stories.newdistrict.ca'>stories</a></span>
+              </ul>
+            </div>
+        </div>
       </header>
+
+      <div class='search_container'>
+        <form action="/" class="content_aligned  search">
+          <fieldset>
+            <input type="text" placeholder="Type to Search Our Wines..." />
+          </fieldset>
+        </form>
+      </div>
 
       <div class='content_wrap'>
         <ul id="menu-main-navigation" class="nav top-nav clearfix">
-          <li id="menu-item-158" class="menu-item">Wineries</li>
+          <li id="menu-item-158" class="menu-item">Our Wineries</li>
         </ul>
       </div>
+
+
             {% include wineries.html %}
 
         <div class="site">

@@ -51,12 +51,11 @@ LINK STYLES
 
 a, a:visited {
 	color: hsl(0,0%,67%);
-  -webkit-transition: color 0.3s ease-out;
-  -moz-transition: color 0.3s ease-out;
-  -o-transition: color 0.3s ease-out;
-  -ms-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
-
+	-webkit-transition: color 0.3s ease-out;
+	-moz-transition: color 0.3s ease-out;
+	-o-transition: color 0.3s ease-out;
+	-ms-transition: color 0.3s ease-out;
+	transition: color 0.3s ease-out;
 
 	/* on hover */
 	&:hover, &:focus {
@@ -165,8 +164,14 @@ NAVIGATION STYLES
 }
 .logo_word {
 	width: 5.9em;
+	float: left;
 }
 
+.logo_meta_info {
+	width: 20em;
+font-size: .75em;
+line-height:1.2;
+}
 .text {
 	margin-top:7em;
 	margin-bottom: 4em;
@@ -179,7 +184,7 @@ NAVIGATION STYLES
 	margin-bottom: 2em;
 	border-bottom: 1px solid dimgray;
 	@extend .headline;
-	font-size: .7em;
+	font-size: .65em;
 	span {
 		display: inline-block;
 	}
@@ -253,7 +258,7 @@ NAVIGATION STYLES
 	margin-bottom: 2em;
 	border-bottom: 1px solid dimgray;
 	@extend .headline;
-	font-size: .7em;
+	font-size: .6em;
 
 	li + li {
 		margin-left: 2em;
