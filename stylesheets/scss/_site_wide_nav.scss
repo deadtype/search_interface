@@ -9,7 +9,10 @@
 	a {text-decoration: none;}
 	span {
 		line-height: 1;
-		display: inline-block
+		display: inline-block;
+		white-space: nowrap;
+		float: left;
+
 	}
 	span + span {
 		margin-left: 1.5em;
