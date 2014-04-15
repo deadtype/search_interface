@@ -4,11 +4,14 @@
 
 	.content_wrap {
 		width: $content_wrap;
+		margin-left: 10%;
 	}
 	.wineries_wrap {
 		width: 95%;
 	}
-	.content_aligned {margin-left: (100% - $content_wrap) / 2; }
+	.content_aligned {margin-left: (100% - $content_wrap) / 2;
+		margin-left: 10%;
+	}
 
 	.wineries_wrap section:nth-of-type(-n+2){
 		margin-top: 0;
@@ -69,8 +72,12 @@
 
 	.content_wrap {
 		width: $content_wrap;
+				margin-left: 10%;
+
 	}
-	.content_aligned {margin-left: (100% - $content_wrap) / 2; }
+	.content_aligned {margin-left: (100% - $content_wrap) / 2;
+			margin-left: 10%;
+}
 
 	.custom_alignment {
 		.control_box {
@@ -106,7 +113,9 @@
 	.content_wrap {
 		width: $content_wrap;
 	}
-	.content_aligned {margin-left: (100% - $content_wrap) / 2; }
+	.content_aligned {margin-left: (100% - $content_wrap) / 2;
+			margin-left: 10%;
+ }
 }
 
 @media only screen and (min-width: 62em) {
@@ -156,7 +165,9 @@
 	.content_wrap {
 		width: $content_wrap;
 	}
-	.content_aligned {margin-left: (100% - $content_wrap) / 2; }
+	.content_aligned {margin-left: (100% - $content_wrap) / 2;
+			margin-left: 10%;
+}
 
 	.archive_text {
 		font-size: 1.8em;
