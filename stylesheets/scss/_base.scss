@@ -17,8 +17,11 @@ body {
 	-webkit-font-feature-settings: "liga";
 	font-feature-settings: "liga";
 	-webkit-font-smoothing: antialiased;
-	margin-top: .85em;
+	margin-top: .35em;
+	padding-top: 1em;
+	background: white;
 }
+html {background: #111;}
 
 $content_wrap: 87.5%;
 
@@ -81,13 +84,13 @@ border-bottom: 1px solid lightgray;
 color: dimgray;}
 
 .main_footer {margin-top: 2em;
-margin-bottom: .35em;}
+margin-bottom: .5em;}
 
 .social {display: inline-block;
 	a {text-decoration: none;}
-
+	 margin-right: 2em;
 }
-.social + .social { margin-right: 2em;}
+
 .social.logo_word {width: 4.6em; display: block;
 	img {vertical-align: 2px;}
 }
@@ -159,19 +162,7 @@ h5, .h5 {
 NAVIGATION STYLES
 *********************/
 
-.logo {
-	width: .5em;
-}
-.logo_word {
-	width: 5.9em;
-	float: left;
-}
 
-.logo_meta_info {
-	width: 20em;
-font-size: .75em;
-line-height:1.2;
-}
 .text {
 	margin-top:7em;
 	margin-bottom: 4em;
@@ -189,6 +180,8 @@ line-height:1.2;
 		display: inline-block;
 		white-space: nowrap;
 	}
+	.share_link {float: right;}
+
 	span + span {
 		margin-left: 2em;
 	}
@@ -259,7 +252,7 @@ line-height:1.2;
 	margin-bottom: 2em;
 	border-bottom: 1px solid dimgray;
 	@extend .headline;
-	font-size: .6em;
+	font-size: .65em;
 
 	li {
 		margin-right: 2em;

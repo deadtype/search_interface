@@ -1,0 +1,13 @@
+.site_wide_nav span {
+	display:none;
+}
+
+span.small_screen {
+	display: block;
+}
+
+@media only screen and (min-width: 36em) {
+.site_wide_nav span {display: block;}
+.small_screen, span.small_screen {display: none;}
+
+}

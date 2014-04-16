@@ -1,0 +1,64 @@
+.logo_container {
+	float: left;
+}
+
+.logo {
+	width: .5em;
+}
+
+.logo_word {
+	width: 8em;
+}
+
+.logo_meta_info {
+	@extend .headline;
+	width: 100%;
+	line-height:1.2;
+	font-size: .55em;
+	color: #333;
+	margin-top: -.3em;
+	margin-left: .05em;
+}
+
+.site_header_container {
+	width:100%;
+}
+
+.site_wide_nav {
+	float: right;
+	margin-top: .4em;
+	@extend .headline;
+	font-size: .6em;
+	a {text-decoration: none;}
+	span {
+		line-height: 1;
+		display: inline-block;
+		white-space: nowrap;
+		float: left;
+		padding: .4em .7em;
+		border: 1px solid lightgray;
+		border-radius: 2px;
+	}
+	span + span {
+		margin-left: 1.5em;
+	}
+	span:hover {
+	border: 1px solid black;}
+	.active {
+	border: 1px solid black;
+	border-radius: 1px;
+	background: black;
+	color: white;
+		a {color: white;}
+	}
+}
+
+@media only screen and (min-width: 32em) {
+
+.site_wide_nav {
+	span + span {
+		margin-left: 1.5em;
+	}
+}
+
+}
