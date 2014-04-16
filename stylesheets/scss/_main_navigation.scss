@@ -29,26 +29,30 @@
 	margin-top: .4em;
 	@extend .headline;
 	font-size: .6em;
-	a {text-decoration: none;}
+	a {
+		text-decoration: none;
+		display: inline-block;
+		float: left;
+	}
 	span {
 		line-height: 1;
 		display: inline-block;
 		white-space: nowrap;
-		float: left;
 		padding: .4em .7em;
 		border: 1px solid lightgray;
 		border-radius: 2px;
 	}
-	span + span {
+	a + a {
 		margin-left: 1.5em;
 	}
-	span:hover {
-	border: 1px solid black;}
-	.active {
-	border: 1px solid black;
-	border-radius: 1px;
-	background: black;
-	color: white;
+	a:hover span {
+		border: 1px solid black;
+	}
+	.active span {
+		border: 1px solid black;
+		border-radius: 1px;
+		background: black;
+		color: white;
 		a {color: white;}
 	}
 }
@@ -56,7 +60,7 @@
 @media only screen and (min-width: 32em) {
 
 .site_wide_nav {
-	span + span {
+	a + a {
 		margin-left: 1.5em;
 	}
 }
