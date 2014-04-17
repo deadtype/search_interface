@@ -10,6 +10,7 @@
         <script>try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
+      <div class='site_wrapper clearfix'>
 
       <header class='main_header content_aligned '>
         <div class='shared_header_container clearfix'>
@@ -24,28 +25,32 @@
 
             <div class='site_wide_nav'>
                 <a href='/' class='active'><span>buy our wines</span></a>
-                <a href='http://192.168.1.65/journal-newdistrict/'><span>learn about</span></a>
+                <a href='http://192.168.1.65/journal-newdistrict/'><span>Wine Stories</span></a>
                 <a class="small_screen active"><span>menu</span></a>
             </div>
         </div>
       </header>
 
-      <div class='search_container'>
-        <form action="/" class="content_aligned  search">
-          <fieldset>
-            <input type="text" placeholder="Type to Search Our Wines..." />
-          </fieldset>
-        </form>
-      </div>
-
-      <div class='content_wrap'>
-        <ul id="menu-main-navigation" class="nav top-nav clearfix">
-          <li id="menu-item-158" class="menu-item">our wineries</li>
-        </ul>
-      </div>
 
 
-            <div class="wineries_wrap clearfix">
+        <div class="site">
+
+          <div class='search_container'>
+	<form action="/" class="content_aligned  search">
+	  <fieldset>
+	    <input type="text" placeholder="Type to Search Our Wines..." />
+	  </fieldset>
+	  <p class='meta'>Looking for a suggestion?</br>Try <a href='/results'>sweet reds</a> or see our <a href='/help'>top choices...</a></p>
+	</form>
+</div>
+
+<div class='content_wrap'>
+	<ul id="menu-main-navigation" class="nav top-nav clearfix">
+	  <li id="menu-item-158" class="menu-item current-menu-item"><span>or explore our wineries</span></li>
+	</ul>
+</div>
+
+<div class="wineries_wrap clearfix">
 	<section class="grid_item_container">
 		<a href="http://blackwidow.newdistrict.ca" target="_blank">
 
@@ -127,15 +132,11 @@
 </div>
 
 
-        <div class="site">
-
-          
         </div>
 
 
 
-
-        <footer class="main_footer" role="contentinfo">
+        <footer class="main_footer clearfix" role="contentinfo">
           <div class="content_wrap">
             <div class='logo_container clearfix'>
               <div class='logo_word social'><a href="/"><img src='/img/logo.png'></a>
@@ -146,10 +147,11 @@
               <div class="social link"><a target="_blank" href="http://instagram.com/newdistrict">Instagram</a></div>
               <div class="social link"><a target="_blank" href="https://www.facebook.com/newdistrict">Facebook</a></div>
               <div class="social link"><a  href="mailto:info@newdistrict.ca">Email Us</a></div>
+              <!--<div class='social link copyright'><a>All Rights Reserved.</a></div>-->
             </div>
           </div>
         </footer>
-
+      </div>
       <!--<script src="/js/libs/jquery-1.8.3.min.js"></script>
       <script src="/js/system/plugins.js"></script>-->
     </body>

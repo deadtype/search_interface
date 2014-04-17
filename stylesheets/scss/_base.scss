@@ -17,11 +17,15 @@ body {
 	-webkit-font-feature-settings: "liga";
 	font-feature-settings: "liga";
 	-webkit-font-smoothing: antialiased;
-	margin-top: .35em;
+	background: #111;
+}
+
+.site_wrapper {
+	margin: .35em auto;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	background: white;
 }
-html {background: #111;}
 
 $content_wrap: 87.5%;
 
@@ -83,18 +87,6 @@ p a {text-decoration: none;
 border-bottom: 1px solid lightgray;
 color: dimgray;}
 
-.main_footer {margin-top: 2em;
-margin-bottom: .5em;}
-
-.social {display: inline-block;
-	a {text-decoration: none;}
-	 margin-right: 2em;
-}
-
-.social.logo_word {width: 4.6em; display: block;
-	img {vertical-align: 2px;}
-}
-.social.link {font-size: .8em; }
 
 ul, ol {padding:0;}
 
@@ -281,7 +273,7 @@ NAVIGATION STYLES
 	font-style: italic;
 	font-size: 1.2em;
 	text-align: left;
-	margin: 2em auto;
+	margin: 3.5em auto;
 }
 
 .published_on {

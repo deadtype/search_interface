@@ -43,7 +43,7 @@
 		border-radius: 2px;
 	}
 	a + a {
-		margin-left: 1.5em;
+		margin-left: 1.1em;
 	}
 	a:hover span {
 		border: 1px solid black;
@@ -57,12 +57,4 @@
 	}
 }
 
-@media only screen and (min-width: 32em) {
 
-.site_wide_nav {
-	a + a {
-		margin-left: 1.5em;
-	}
-}
-
-}

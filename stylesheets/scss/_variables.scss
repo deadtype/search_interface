@@ -38,6 +38,17 @@ TYPOGRAPHY
 	font-weight: 400;
 }
 
+.headline_link {
+	a {border-bottom: 1px solid lightgray;}
+	a:hover {
+		border-bottom: 1px solid black;
+		-webkit-transition: border-color 0.3s ease-out;
+		-moz-transition: border-color 0.3s ease-out;
+		-o-transition: border-color 0.3s ease-out;
+		-ms-transition: border-color 0.3s ease-out;
+		transition: border-color 0.3s ease-out;
+	}
+}
 /* ==========================================================================
    Custom Helper classes
    ========================================================================== */
