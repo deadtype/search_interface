@@ -10,6 +10,19 @@
         <script>try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
+      <div class='content_aligned'>
+        <nav class="major_nav clearfix" role='navigation'>
+          <div class=' mobile_menu clearfix'>
+            <div class='mobile_logo_container'>
+               <div class='logo'>
+                <a href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}/img/new_dist_logo_white.png'></a>
+              </div>
+            </div>
+              <div class='mobile_link'><a href='{{ site.baseurl }}/' class='active'><span>buy our wines</span></a></div>
+              <div class='mobile_link'><a href='http://localhost/journal-newdistrict/'><span>Wine Stories</span></a></div>
+          </div>
+        </nav>
+      </div>
       <div class='site_wrapper clearfix'>
 
       <header class='main_header content_aligned '>
@@ -23,11 +36,14 @@
             </div>
           </div>
 
-            <div class='site_wide_nav'>
+
+          <div class='site_wide_nav big_screen'>
                 <a href='{{ site.baseurl }}/' class='active'><span>buy our wines</span></a>
                 <a href='http://localhost/journal-newdistrict/'><span>Wine Stories</span></a>
-                <a class="small_screen active"><span>menu</span></a>
-            </div>
+          </div>
+          <div class='site_wide_nav small_screen'>
+              <a class="small_screen active menu-link"><span>menu</span></a>
+          </div>
         </div>
       </header>
 
@@ -55,7 +71,7 @@
           </div>
         </footer>
       </div>
-      <!--<script src="{{ site.baseurl }}/js/libs/jquery-1.8.3.min.js"></script>
-      <script src="{{ site.baseurl }}/js/system/plugins.js"></script>-->
+      <script src="{{ site.baseurl }}/js/libs/jquery-1.8.3.min.js"></script>
+      <script src="{{ site.baseurl }}/js/system/plugins.js"></script>
     </body>
 </html>

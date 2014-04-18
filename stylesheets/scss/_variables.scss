@@ -16,12 +16,16 @@ $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 $button-green:		#affcb0;
 $button-hover-green: #06c909;
+$black:				black;
+$black_1:			#111;
+$black_2:			#222;
+$black_3:			#333;
 
-$black:             #000;
-$white:             #fff;
+$body_background: 	$black_1;
+
 
 $link-color:        hsl(0,0%,67%);
-$link-hover:        black;
+$link-hover:        $black;
 
 /*********************
 TYPOGRAPHY
