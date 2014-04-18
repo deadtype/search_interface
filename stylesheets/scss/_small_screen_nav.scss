@@ -1,5 +1,7 @@
-.site_wide_nav a {
+.main_header {
+	.site_wide_nav a {
 	display:none;
+}
 }
 
 a.small_screen {
@@ -7,7 +9,11 @@ a.small_screen {
 }
 
 @media only screen and (min-width: 36em) {
-.site_wide_nav a {display: block;}
-.small_screen, a.small_screen {display: none; visibility:hidden;}
+.main_header {
+	.site_wide_nav a {display: block;}
+}
+.main_header {
+	.small_screen, a.small_screen {display: none; visibility:hidden;}
+}
 
 }
