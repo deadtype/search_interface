@@ -186,7 +186,8 @@
 }
 
 @media only screen and (min-width: 1300px) {
-	$left_margin: 17%;
+	$left_margin: 16%;
+	$right_margin: 8%;
 
 	.content_wrap {
 	width: auto;
@@ -207,6 +208,7 @@
 	}
 	.content_aligned {
 		margin-left: $left_margin;
+		margin-right: $right_margin;
 	}
 }
 
