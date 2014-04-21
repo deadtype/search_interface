@@ -1,5 +1,8 @@
-li.current-menu-item, .section_header {
+li.current-menu-item, .section_header, .single_article #menu-item-171 {
 	margin-bottom: -2px;
+	a {
+		color: #333;
+	}
 	a, span {
 		border-bottom: 2px solid black;
 		display: inline-block;

@@ -195,7 +195,7 @@ NAVIGATION STYLES
 }
 
 .archive_image {
-	background: hsla(0,0%,0%,.5);
+	background: hsla(0,0%,0%,.4);
 	-webkit-transition: background 0.5s ease-out;
 	-moz-transition: background 0.5s ease-out;
 	-o-transition: background 0.5s ease-out;
@@ -206,8 +206,7 @@ NAVIGATION STYLES
 
 .archive_text {
 	font-size: 1.4em;
-	padding:3em 0;
-
+	padding:6.5em 0 1em;
 }
 
 .archive_title, .archive_subtitle {
@@ -229,17 +228,6 @@ NAVIGATION STYLES
 	margin-top: 4em;
 }
 
-.single {
-	.menu-item-158 {
-		a {
-			color: black;
-		}
-	}
-	.nav .menu-item-166 {
-		a {
-		}
-	}
-}
 
 
 .nav {
@@ -286,10 +274,13 @@ NAVIGATION STYLES
 	width: 100%;
 	top: .8em;
 
-	.vcard {
+	.vcard, .next, .time  {
 		color:white;
 		@extend .headline;
-		font-size:.7em;
+		font-size:.65em;
+	}
+	.next, .time {
+		font-size: .65em;
 	}
 }
 
