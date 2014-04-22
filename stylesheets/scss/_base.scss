@@ -85,8 +85,10 @@ a, a:visited {
 }
 
 p a {text-decoration: none;
-border-bottom: 1px solid lightgray;
-color: dimgray;}
+text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 4px, lightgray 4px, lightgray  5px, rgba(0, 0, 0, 0) 3px);
+color: dimgray;
+}
 
 
 ul, ol {padding:0;}
@@ -408,7 +410,7 @@ NAVIGATION STYLES
 }
 
 .featured_article {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 
 #content {
