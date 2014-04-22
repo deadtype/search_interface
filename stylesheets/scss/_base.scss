@@ -84,6 +84,7 @@ a, a:visited {
 	}
 }
 
+/* text shadow by Gary Hepting http://codepen.io/ghepting/pen/tLnHK/ */
 p a {text-decoration: none;
 text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 3px, lightgray 3px, lightgray  4px, rgba(0, 0, 0, 0) 3px);
