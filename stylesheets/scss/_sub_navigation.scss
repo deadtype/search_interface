@@ -26,19 +26,23 @@ li.current-menu-item, .section_header, .single_article #menu-item-171 {
 
 .social_link_container {
 	float: left;
-	line-height: 1;
+	line-height: 2;
 	margin-top: .2em;
 	width: 100%;
 }
 .social {
 	display: inline-block;
 	float: left;
+	margin-right: 2.5em;
+	white-space: nowrap;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-o-hyphens: none;
+
 	a {text-decoration: none;}
 }
-.social + .social {
-	margin-left: 2em;
-	margin-right: 0;
-}
+
 
 .social.logo_word {
 	width: 4.6em;
