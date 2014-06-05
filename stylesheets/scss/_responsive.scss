@@ -191,10 +191,14 @@
 	$left_margin: 16%;
 	$right_margin: 8%;
 
-	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote {
+	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract {
 	width: auto;
 	max-width: 780px;
 	margin-left: $left_margin;
+	}
+
+	.article_content_wrap .article_abstract {
+		max-width: 1000px;
 	}
 
 	.grid_item {
