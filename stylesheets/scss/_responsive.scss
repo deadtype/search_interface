@@ -191,7 +191,7 @@
 	$left_margin: 16%;
 	$right_margin: 8%;
 
-	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract {
+	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote {
 	width: auto;
 	max-width: 780px;
 	margin-left: $left_margin;
