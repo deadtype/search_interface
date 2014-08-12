@@ -1315,7 +1315,7 @@ nav[role=navigation].active {
   .js nav[role=navigation] {
     max-height: none; } }
 @media only screen and (min-width: 32em) {
-  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image {
+  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content {
     width: 77%;
     margin-left: 10%; }
 
@@ -1369,7 +1369,7 @@ nav[role=navigation].active {
     padding-left: .75em;
     padding-right: .75em; }
 
-  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image {
+  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content {
     width: 73%;
     margin-left: 10%;
     margin-right: 6%; }
@@ -1395,7 +1395,7 @@ nav[role=navigation].active {
     padding-left: .85em;
     padding-right: .85em; }
 
-  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image {
+  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content {
     width: 65%; }
 
   .content_aligned {
@@ -1430,7 +1430,7 @@ nav[role=navigation].active {
   .grid_item_container {
     height: 20em; }
 
-  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image {
+  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content {
     width: 60%;
     margin-right: 8%; }
 
@@ -1444,7 +1444,7 @@ nav[role=navigation].active {
   .control_box {
     font-size: 1em; } }
 @media only screen and (min-width: 1300px) {
-  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image {
+  .content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content {
     width: auto;
     max-width: 780px;
     margin-left: 16%; }

@@ -2,7 +2,7 @@
 @media only screen and (min-width: 32em) {
 	$content_wrap: 77%;
 
-	.content_wrap,.article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image {
+	.content_wrap,.article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content {
 		width: $content_wrap;
 		margin-left: 10%;
 	}
@@ -75,7 +75,7 @@
 		padding-right:.75em;
 	}
 
-	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image  {
+	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content  {
 		width: $content_wrap;
 				margin-left: 10%;
 				margin-right: 6%;
@@ -116,7 +116,7 @@
 
 	$content_wrap: 65%;
 
-	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image  {
+	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content  {
 		width: $content_wrap;
 	}
 	.content_aligned {margin-left: (100% - $content_wrap) / 2;
@@ -168,7 +168,7 @@
 
 	$content_wrap: 60%;
 
-	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image  {
+	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content  {
 		width: $content_wrap;
 		margin-right: 8%;
 	}
@@ -191,7 +191,7 @@
 	$left_margin: 16%;
 	$right_margin: 8%;
 
-	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image  {
+	.content_wrap, .article_content_wrap p, .article_content_wrap blockquote, .article_content_wrap .article_abstract, .article_content_wrap .small_image, .farmers_markets_content  {
 	width: auto;
 	max-width: 780px;
 	margin-left: $left_margin;
